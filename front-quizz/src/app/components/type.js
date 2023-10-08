@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import { toast } from 'react-toastify';
 
 
 export default function Type({startQuiz}) {
@@ -9,7 +10,12 @@ export default function Type({startQuiz}) {
    useEffect(() => {
     fetch('http://127.0.0.1:8000/types')
       .then(response => response.json())
-      .then(data => setQuizTypes(data.types));
+      .then(data => setQuizTypes(data.types))
+       .catch(err => {
+        console.error("Error fetching types:", err);
+         toast.error("Error fetching types");
+      });
+      
   }, []);
 
   return (

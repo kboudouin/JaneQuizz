@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Cookies from "js-cookie";
+import { toast } from 'react-toastify';
 
 
 export default function Login({ isLogged, setIsLogged }) {
@@ -18,6 +19,11 @@ export default function Login({ isLogged, setIsLogged }) {
       },
       body: JSON.stringify({ username, password }),
     });
+
+      if (!response.ok) {
+            toast.error("Login failed. Please check username or password");
+        }
+
     const data = await response.json();
     //If token exists then trigger IsLogged to true and create a cookie to store first name otherwise clear inputs
     if (data.token) {

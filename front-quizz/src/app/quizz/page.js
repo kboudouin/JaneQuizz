@@ -6,6 +6,7 @@ import TypeCard from '../components/type'
 import RecapCard from '../components/recap'
 import WelcomeCard from '../components/welcome'
 import Cookies from "js-cookie";
+import { toast } from 'react-toastify';
 
 export default function Quizz() {
   const [username, setUsername] = useState(null);
@@ -36,6 +37,7 @@ useEffect(() => {
                 setquestionsLenght(data.questions.length)
             })
             .catch(error => {
+                toast.error("Error getting questions");
                 console.error("Error getting questions:", error);
             });
     }
@@ -76,6 +78,7 @@ useEffect(() => {
     const logout = async () => {
       Cookies.remove('Name')
       setUsername('')
+      toast("You have logged out!");
   }
 
 
