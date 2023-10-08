@@ -382,7 +382,97 @@
         "Charles Babbage"
       ],
       "answer": "Charles Babbage"
-    }
+    },
+     {
+    "question": "Quel est le rôle d'un pare-feu ?",
+    "type": "Sécurité Informatique",
+    "options": ["Bloquer l'accès non autorisé", "Accélérer la connexion Internet", "Stockage de données", "Routage de données"],
+    "answer": "Bloquer l'accès non autorisé"
+  },
+  {
+    "question": "Qu'est-ce qu'un VPN ?",
+    "type": "Sécurité Informatique",
+    "options": ["Virtual Public Network", "Very Private Network", "Virtual Private Network", "Very Public Network"],
+    "answer": "Virtual Private Network"
+  },
+  {
+    "question": "Quel est le principal objectif de l'encryption ?",
+    "type": "Sécurité Informatique",
+    "options": ["Compression de données", "Sécurité des données", "Transmission de données", "Stockage de données"],
+    "answer": "Sécurité des données"
+  },
+  {
+    "question": "Quelle est la principale utilité d'un certificat SSL ?",
+    "type": "Sécurité Informatique",
+    "options": ["Sécuriser une connexion HTTPS", "Compression de données", "Routage de données", "Accélérer la connexion Internet"],
+    "answer": "Sécuriser une connexion HTTPS"
+  },
+  {
+    "question": "Quel est le port standard pour le protocole HTTPS ?",
+    "type": "Sécurité Informatique",
+    "options": ["80", "22", "443", "21"],
+    "answer": "443"
+  },
+  {
+    "question": "Qu'est-ce que CI/CD ?",
+    "type": "DevOps",
+    "options": ["Continuous Integration / Continuous Deployment", "Computer Interface / Cloud Deployment", "Continuous Internet / Cloud Download", "Computer Internet / Continuous Download"],
+    "answer": "Continuous Integration / Continuous Deployment"
+  },
+  {
+    "question": "Quel outil est couramment utilisé pour la gestion des conteneurs ?",
+    "type": "DevOps",
+    "options": ["Docker", "Jenkins", "Git", "Apache"],
+    "answer": "Docker"
+  },
+  {
+    "question": "Quelle commande Git permet de cloner un dépôt ?",
+    "type": "DevOps",
+    "options": ["git clone", "git pull", "git push", "git fetch"],
+    "answer": "git clone"
+  },
+  {
+    "question": "Quel outil est utilisé pour l'intégration continue ?",
+    "type": "DevOps",
+    "options": ["Jenkins", "Docker", "Nginx", "SQL"],
+    "answer": "Jenkins"
+  },
+  {
+    "question": "Quel est le fichier de configuration pour Docker ?",
+    "type": "DevOps",
+    "options": ["Docker.config", "Dockerfile", "Docker.yml", "docker.json"],
+    "answer": "Dockerfile"
+  },
+  {
+    "question": "Quelle est la première blockchain publique ?",
+    "type": "Blockchain",
+    "options": ["Ethereum", "Bitcoin", "Ripple", "Litecoin"],
+    "answer": "Bitcoin"
+  },
+  {
+    "question": "Quel algorithme est utilisé dans la blockchain Bitcoin pour la preuve de travail (Proof of Work) ?",
+    "type": "Blockchain",
+    "options": ["SHA-1", "SHA-256", "MD5", "RSA"],
+    "answer": "SHA-256"
+  },
+  {
+    "question": "Qu'est-ce qu'un smart contract ?",
+    "type": "Blockchain",
+    "options": ["Un contrat légal", "Un algorithme de consensus", "Un contrat auto-exécutable", "Un portefeuille numérique"],
+    "answer": "Un contrat auto-exécutable"
+  },
+  {
+    "question": "Quel est le principal avantage de la décentralisation dans la blockchain ?",
+    "type": "Blockchain",
+    "options": ["Vitesse", "Évolutivité", "Sécurité", "Coût"],
+    "answer": "Sécurité"
+  },
+  {
+    "question": "Quel est le nombre maximal de bitcoins qui seront jamais créés ?",
+    "type": "Blockchain",
+    "options": ["21 millions", "100 millions", "50 millions", "Il n'y a pas de limite"],
+    "answer": "21 millions"
+  }
   ]
 }
 
