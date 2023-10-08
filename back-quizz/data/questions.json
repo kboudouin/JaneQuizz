@@ -1,0 +1,389 @@
+{
+  "questions": [
+    {
+      "question": "Quelle est la méthode JavaScript utilisée pour déclarer une variable de type integer?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "var, let",
+        "const",
+        "int",
+        "public int"
+      ],
+      "answer": "var, let"
+    },
+    {
+      "question": "Comment définissez-vous une fonction fléchée en JavaScript ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "(paramètres) => { instructions }",
+        "function(paramètres) { instructions }",
+        "=> (paramètres) { instructions }"
+      ],
+      "answer": "(paramètres) => { instructions }"
+    },
+    {
+      "question": "Quelle est la bibliothèque JavaScript utilisée pour la gestion de l'état global dans React ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "Redux",
+        "Axios",
+        "jQuery",
+        "Lodash"
+      ],
+      "answer": "Redux"
+    },
+    {
+      "question": "Dans React, quelle méthode de cycle de vie est appelée après le rendu initial du composant ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "componentDidMount()",
+        "componentWillUnmount()",
+        "componentDidUpdate()",
+        "useEffect({}, [mount])",
+        "constructor()"
+      ],
+      "answer": "componentDidMount()"
+    },
+    {
+      "question": "Quelle est la différence entre un composant de classe et un composant fonctionnel React ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "Les composants de classe ont un état local, tandis que les composants fonctionnels n'ont pas d'état.",
+        "Les composants de classe sont plus rapides, les composants fonctionnels sont obsolètes.",
+        "Les composants de classe sont utilisés uniquement pour les tests."
+      ],
+      "answer": "Les composants de classe ont un état local, tandis que les composants fonctionnels n'ont pas d'état."
+    },
+    {
+      "question": "Quelle est la dernière version stable de Python ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Python 3.9",
+        "Python 2.7",
+        "Python 4.0",
+        "Python 3.6"
+      ],
+      "answer": "Python 3.9"
+    },
+    {
+      "question": "Quel framework Python est couramment utilisé pour le développement web ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Spring",
+        "Flask",
+        "Ruby on Rails",
+        "Express"
+      ],
+      "answer": "Flask"
+    },
+    {
+      "question": "Quelle est la fonction de la couche de modèle dans l'architecture MVC de Django ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Gérer les données et la logique métier",
+        "Contrôler les routes",
+        "Gérer l'interface utilisateur",
+        "Gérer les fichiers statiques"
+      ],
+      "answer": "Gérer les données et la logique métier"
+    },
+    {
+      "question": "Quelle est la différence fondamentale entre Django et FastAPI ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Django est un framework full-stack, tandis que FastAPI est un framework pour les APIs RESTful.",
+        "Django est plus rapide que FastAPI",
+        "FastAPI est un CMS",
+        "Django est principalement utilisé pour l'automatisation"
+      ],
+      "answer": "Django est un framework full-stack, tandis que FastAPI est un framework pour les APIs RESTful."
+    },
+    {
+      "question": "Quelle est la méthode HTTP utilisée pour récupérer des données depuis un serveur sans les modifier ?",
+      "type": "API - HTTP",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "answer": "GET"
+    },
+    {
+      "question": "Quelle est la signification de l'acronyme 'URL' ?",
+      "type": "API - HTTP",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Reference Language",
+        "User Resource Library",
+        "Unified Request Line"
+      ],
+      "answer": "Uniform Resource Locator"
+    },
+    {
+      "question": "Quelle est la signification de l'acronyme 'SQL' en base de données ?",
+      "type": "Réseau - SQL",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "System Query Language",
+        "Structured Question Language"
+      ],
+      "answer": "Structured Query Language"
+    },
+    {
+      "question": "Quelle est la principale différence entre SQL et NoSQL ?",
+      "type": "Réseau - SQL",
+      "options": [
+        "SQL est basé sur des tables relationnelles, tandis que NoSQL est basé sur des documents, des graphiques ou d'autres structures de données.",
+        "SQL est plus rapide que NoSQL.",
+        "NoSQL ne prend pas en charge les transactions.",
+        "SQL est plus adapté aux applications mobiles."
+      ],
+      "answer": "SQL est basé sur des tables relationnelles, tandis que NoSQL est basé sur des documents, des graphiques ou d'autres structures de données."
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour créer une liste non ordonnée ?",
+      "type": "HTML - CSS",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<p>"
+      ],
+      "answer": "<ul>"
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour définir la couleur du texte ?",
+      "type": "HTML - CSS",
+      "options": [
+        "background-color",
+        "text-color",
+        "color",
+        "font-color"
+      ],
+      "answer": "color"
+    },
+    {
+      "question": "Quelle est la signification de l'acronyme 'HTTP' en informatique ?",
+      "type": "Culture générale sur la tech",
+      "options": [
+        "Hypertext Transfer Protocol",
+        "Hyperlink Text Transmission Protocol",
+        "High-Tech Transfer Protocol",
+        "Hypertext Text Transfer Protocol"
+      ],
+      "answer": "Hypertext Transfer Protocol"
+    },
+    {
+      "question": "Qui est l'inventeur de Python ?",
+      "type": "Culture générale sur la tech",
+      "options": [
+        "Guido van Rossum",
+        "Elon Musk",
+        "Mark Zuckerberg",
+        "Tim Berners-Lee"
+      ],
+      "answer": "Guido van Rossum"
+    },
+    {
+      "question": "Que signifie 'JaneQ' ?",
+      "type": "Culture générale sur la tech",
+      "options": [
+        "Jane Birkin",
+        "Generated Questions",
+        "Un nom d'utilisateur générique",
+        "Jane's Query"
+      ],
+      "answer": "Un nom d'utilisateur générique"
+    },
+    {
+      "question": "Qu'est-ce que le 'cloud computing' ?",
+      "type": "Culture générale sur la tech",
+      "options": [
+        "La simulation de nuages dans les jeux vidéo",
+        "Le stockage de données sur des serveurs distants accessibles via Internet",
+        "L'analyse des données météorologiques",
+        "Un type de vol spatial"
+      ],
+      "answer": "Le stockage de données sur des serveurs distants accessibles via Internet"
+    },
+    {
+      "question": "Quelle est la différence entre 'let' et 'var' en JavaScript pour la déclaration de variables ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "Aucune différence, elles sont interchangeables",
+        "'let' est utilisé pour déclarer des variables locales, tandis que 'var' déclare des variables globales",
+        "'var' est utilisé pour déclarer des variables locales, tandis que 'let' déclare des variables globales"
+      ],
+      "answer": "'let' est utilisé pour déclarer des variables locales, tandis que 'var' déclare des variables globales"
+    },
+    {
+      "question": "Comment incluez-vous un commentaire dans votre code JavaScript ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "// Ceci est un commentaire",
+        "/* Ceci est un commentaire */",
+        "# Ceci est un commentaire",
+        "<!-- Ceci est un commentaire -->"
+      ],
+      "answer": "// Ceci est un commentaire"
+    },
+    {
+      "question": "Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?",
+      "type": "JavaScript - React.js",
+      "options": [
+        "push()",
+        "append()",
+        "add()",
+        "extend()"
+      ],
+      "answer": "push()"
+    },
+    {
+      "question": "Comment incluez-vous une image dans une page HTML ?",
+      "type": "HTML - CSS",
+      "options": [
+        "<img src='image.jpg' alt='Description de l'image'>",
+        "<image href='image.jpg' alt='Description de l'image'>",
+        "<picture src='image.jpg' alt='Description de l'image'>",
+        "<img alt='Description de l'image'>"
+      ],
+      "answer": "<img src='image.jpg' alt='Description de l'image'>"
+    },
+    {
+      "question": "Quelle est la signification de l'acronyme 'API' en informatique ?",
+      "type": "API - HTTP",
+      "options": [
+        "Application Programming Interface",
+        "Advanced Programming Interface",
+        "Automated Program Integration",
+        "Application Program Interface"
+      ],
+      "answer": "Application Programming Interface"
+    },
+    {
+      "question": "Quelle est la principale différence entre Django et FastAPI en ce qui concerne la gestion des routes ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Django utilise des vues basées sur des classes pour gérer les routes, tandis que FastAPI utilise des fonctions asynchrones pour les endpoints.",
+        "Django utilise des fonctions asynchrones pour gérer les routes, tandis que FastAPI utilise des vues basées sur des classes.",
+        "Les deux frameworks utilisent la même approche pour la gestion des routes.",
+        "Django ne prend pas en charge la gestion des routes."
+      ],
+      "answer": "Django utilise des vues basées sur des classes pour gérer les routes, tandis que FastAPI utilise des fonctions asynchrones pour les endpoints."
+    },
+    {
+      "question": "Quelle est la fonction principale de l'ORM (Object-Relational Mapping) dans Django ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "L'ORM permet de mapper des objets Python sur des tables de base de données relationnelles.",
+        "L'ORM est utilisé pour créer des interfaces utilisateur dans Django.",
+        "L'ORM gère les routes dans Django.",
+        "L'ORM est responsable de la gestion des fichiers statiques."
+      ],
+      "answer": "L'ORM permet de mapper des objets Python sur des tables de base de données relationnelles."
+    },
+    {
+      "question": "Comment définir un modèle de données dans Django ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "En créant une classe Python héritant de models.Model et en définissant les champs de la base de données comme des attributs de cette classe.",
+        "En utilisant des fichiers JSON pour définir la structure de la base de données.",
+        "En écrivant une requête SQL pour créer la table de base de données correspondante.",
+        "En utilisant des fichiers YAML pour définir la structure de la base de données."
+      ],
+      "answer": "En créant une classe Python héritant de models.Model et en définissant les champs de la base de données comme des attributs de cette classe."
+    },
+    {
+      "question": "Quelle bibliothèque Python est utilisée pour créer des API RESTful avec FastAPI ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Flask",
+        "Django",
+        "Tornado",
+        "FastAPI ne nécessite pas de bibliothèque externe pour créer des API RESTful."
+      ],
+      "answer": "FastAPI ne nécessite pas de bibliothèque externe pour créer des API RESTful."
+    },
+    {
+      "question": "Quelle est la principale caractéristique de FastAPI par rapport à d'autres frameworks Python pour la création d'API ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "FastAPI prend en charge la génération automatique de documentation interactive (Swagger) pour les API.",
+        "FastAPI est plus lent que les autres frameworks Python.",
+        "FastAPI n'est pas adapté à la création d'API RESTful.",
+        "FastAPI ne prend en charge que les API GraphQL."
+      ],
+      "answer": "FastAPI prend en charge la génération automatique de documentation interactive (Swagger) pour les API."
+    },
+    {
+      "question": "Quelle est la différence entre une liste et un tuple en Python ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Une liste est mutable (modifiable), tandis qu'un tuple est immuable (non modifiable).",
+        "Une liste est triée par défaut, tandis qu'un tuple n'est pas trié.",
+        "Une liste peut contenir des données de types différents, tandis qu'un tuple ne peut contenir que des données de même type.",
+        "Les listes et les tuples sont interchangeables en Python."
+      ],
+      "answer": "Une liste est mutable (modifiable), tandis qu'un tuple est immuable (non modifiable)."
+    },
+    {
+      "question": "Quelle est la fonction 'lambda' en Python et comment est-elle utilisée ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Une fonction lambda est une fonction anonyme utilisée pour créer des fonctions simples en une seule ligne de code.",
+        "Une fonction lambda est utilisée pour gérer les exceptions en Python.",
+        "Une fonction lambda est utilisée pour créer des boucles en Python.",
+        "Une fonction lambda est une fonction interne de Python utilisée pour trier les listes."
+      ],
+      "answer": "Une fonction lambda est une fonction anonyme utilisée pour créer des fonctions simples en une seule ligne de code."
+    },
+    {
+      "question": "Quel est l'avantage de l'utilisation de la déclaration 'with' en Python ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "La déclaration 'with' permet de gérer automatiquement la fermeture de ressources telles que les fichiers après leur utilisation.",
+        "La déclaration 'with' est utilisée pour créer des boucles en Python.",
+        "La déclaration 'with' permet de créer des fonctions anonymes en Python.",
+        "La déclaration 'with' permet de gérer les exceptions en Python."
+      ],
+      "answer": "La déclaration 'with' permet de gérer automatiquement la fermeture de ressources telles que les fichiers après leur utilisation."
+    },
+    {
+      "question": "Comment peut-on échanger les valeurs de deux variables en Python sans utiliser de variable temporaire ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "a, b = b, a",
+        "a = b, b = a",
+        "a = b",
+        "a = a + b, b = a - b, a = a - b"
+      ],
+      "answer": "a, b = b, a"
+    },
+    {
+      "question": "Quelle est la principale différence entre une classe et une instance en Python ?",
+      "type": "Python - Django - FastAPI",
+      "options": [
+        "Une classe est une collection d'instances, tandis qu'une instance est une représentation spécifique d'une classe.",
+        "Une classe est une fonction en Python, tandis qu'une instance est une variable.",
+        "Une classe est immuable, tandis qu'une instance est mutable.",
+        "Une classe et une instance sont interchangeables en Python."
+      ],
+      "answer": "Une classe est une collection d'instances, tandis qu'une instance est une représentation spécifique d'une classe."
+    },
+    {
+      "question": "Qui est souvent crédité de l'invention de l'ordinateur personnel (PC) ?",
+      "type": "Culture générale sur la tech",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Alan Turing",
+        "Charles Babbage"
+      ],
+      "answer": "Charles Babbage"
+    }
+  ]
+}
+
+
