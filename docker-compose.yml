@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  front-quizz:
+    build:
+      context: ./front-quizz
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+  back-quizz:
+    build:
+      context: ./back-quizz
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
